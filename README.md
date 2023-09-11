@@ -32,6 +32,8 @@ A place to list all my SELinux debugging commands and handy tips. Help me SELinu
 ### Show process domain:
 `ps -efZ | grep myapp`
 
+### Show what context a file should have in a location:
+`matchpathcon /path/to/something`
 
 
 
